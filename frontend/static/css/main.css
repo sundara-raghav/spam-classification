@@ -1,0 +1,30 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-brand {
+    font-weight: 600;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.list-group-item {
+    border-left: 4px solid transparent;
+    transition: all 0.3s;
+}
+
+.list-group-item:hover {
+    border-left-color: #667eea;
+    background-color: #f8f9fa;
+}
+
+.list-group-item-danger:hover {
+    border-left-color: #dc3545;
+}
+
+.badge {
+    padding: 0.5em 1em;
+}
